@@ -472,7 +472,10 @@ header {
 .tg-icon svg {
   width: 22px;
   height: 22px;
+  max-width: 22px;
+  max-height: 22px;
   fill: var(--accent);
+  display: block;
 }
 
 .tg-info {
