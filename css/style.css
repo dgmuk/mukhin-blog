@@ -67,21 +67,21 @@ header {
   color: var(--text-primary);
 }
 
-.logo-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  text-decoration: none;
+.nav-btn {
+  background: var(--accent-dim);
+  color: var(--accent);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--border-accent);
+  transition: all 0.2s;
 }
 
-.brand-name {
-  font-family: var(--font-display);
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-secondary);
-  border-left: 1px solid var(--border);
-  padding-left: 12px;
+.nav-btn:hover {
+  background: var(--accent);
+  color: #000;
+  opacity: 1;
 }
 
 .nav-link {
