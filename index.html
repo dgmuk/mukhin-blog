@@ -33,7 +33,7 @@
 
       <div class="post-grid">
         <!-- Посты будут добавляться сюда из posts-registry.json при сборке/ручном обновлении -->
-        <a href="posts/gde_tvoi_belok.html" class="post-card">
+        <a href="posts/gde_tvoi_belok.html" class="post-card" data-rubric="Питание">
           <div class="post-card-image">
             <img src="images/gde_tvoi_belok.jpeg" alt="Аппетит пропал на фоне тренировок. Почему это опасно и что с этим делать" loading="lazy">
             <div class="post-card-rubric">Питание</div>
@@ -54,5 +54,33 @@
       &copy; 2026 Дмитрий Мухин. Тренер · Программы трансформации
     </footer>
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const postCards = document.querySelectorAll('.post-card');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Убираем активный класс у всех кнопок
+          filterBtns.forEach(b => b.classList.remove('active'));
+          // Добавляем активный класс нажатой кнопке
+          btn.classList.add('active');
+
+          const filterValue = btn.textContent.trim();
+
+          postCards.forEach(card => {
+            const cardRubric = card.getAttribute('data-rubric');
+            
+            if (filterValue === 'Все' || cardRubric === filterValue) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
 </body>
 </html>
