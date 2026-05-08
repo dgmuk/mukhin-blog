@@ -67,6 +67,23 @@ header {
   color: var(--text-primary);
 }
 
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.brand-name {
+  font-family: var(--font-display);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  border-left: 1px solid var(--border);
+  padding-left: 12px;
+}
+
 .nav-link {
   color: var(--text-secondary);
   font-size: 14px;
