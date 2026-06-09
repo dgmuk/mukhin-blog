@@ -519,6 +519,12 @@ header {
   .tg-info p {
     display: none; /* Скрываем описание на совсем маленьких экранах для компактности */
   }
+  .post-image {
+    max-height: 300px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 footer {
