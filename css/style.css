@@ -248,7 +248,7 @@ header {
 }
 
 .post-image {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: var(--radius-lg);
   margin-bottom: 30px;
