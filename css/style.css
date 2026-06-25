@@ -105,7 +105,7 @@ header {
 }
 
 .hero-title {
-  font-size: 32px;
+  font-size: clamp(18px, 5vw, 32px);
   margin-bottom: 10px;
 }
 
@@ -241,7 +241,7 @@ header {
 }
 
 .post-title {
-  font-size: 32px;
+  font-size: clamp(18px, 5vw, 32px);
   margin: 10px 0;
   line-height: 1.2;
 }
@@ -269,7 +269,7 @@ header {
 }
 
 .post-content h2 {
-  font-size: 24px;
+  font-size: clamp(17px, 4.5vw, 24px);
   margin: 40px 0 20px 0;
 }
 
@@ -316,7 +316,7 @@ header {
 
 .fact-number {
   font-family: var(--font-display);
-  font-size: 48px;
+  font-size: clamp(28px, 8vw, 48px);
   color: var(--accent);
   font-weight: 700;
   line-height: 1;
@@ -355,7 +355,7 @@ header {
 
 .cta-title {
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: clamp(17px, 4.5vw, 24px);
   margin-bottom: 10px;
   color: var(--text-primary);
 }
@@ -418,7 +418,7 @@ header {
 
 .book-title {
   font-family: var(--font-display);
-  font-size: 22px;
+  font-size: clamp(16px, 4vw, 22px);
   margin-bottom: 10px;
   color: var(--text-primary);
   line-height: 1.3;
