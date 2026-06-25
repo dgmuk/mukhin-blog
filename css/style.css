@@ -573,29 +573,29 @@ footer {
   border-top: 1px solid var(--border);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .hero-title {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .post-title {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .post-content h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .fact-number {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   .cta-title {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .book-title {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
