@@ -105,7 +105,7 @@ header {
 }
 
 .hero-title {
-  font-size: clamp(18px, 5vw, 32px);
+  font-size: clamp(20px, 5.5vw, 32px);
   margin-bottom: 10px;
 }
 
@@ -241,7 +241,7 @@ header {
 }
 
 .post-title {
-  font-size: clamp(18px, 5vw, 32px);
+  font-size: clamp(20px, 5.5vw, 32px);
   margin: 10px 0;
   line-height: 1.2;
 }
